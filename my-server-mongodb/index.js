@@ -29,5 +29,14 @@ fashionCollection = database.collection('Fashion')
 app.get("/fashions", cors(), async (req, res) => {
     const result = await fashionCollection.find({}).toArray();
     res.send(result)
+
+}
+)
+
+// search by id
+app.get("/fashions/:id", cors(), async (req, res) => {
+    const id = req.params.id
+    const result = await fashionCollection.findOne({ _id: ObjectID(id) });
+    res.send(result)
 }
 )
