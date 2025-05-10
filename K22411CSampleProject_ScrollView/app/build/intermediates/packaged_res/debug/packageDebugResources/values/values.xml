@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">My Application</string>
+    <string name="title_confirm_exit">Exit confirmation</string>
+    <string name="title_confirm_exit_message">Are you sure want to exit?</string>
+    <string name="title_confirm_exit_no">No</string>
+    <string name="title_confirm_exit_yes">Yes</string>
+    <string name="title_customer">Customer</string>
+    <string name="title_employee">Employee</string>
+    <string name="title_login_button_login">Login</string>
+    <string name="title_login_password">Password:</string>
+    <string name="title_login_save_login_infor">Save login information</string>
+    <string name="title_login_username">Username:</string>
+    <string name="title_login_username_hint">Enter your username:</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>
